@@ -50,7 +50,7 @@ jobs:
         with:
           recipe: "./appimage/AppImageBuilder.yml"
         env:
-          UPDATE_INFO: gh-releases-zsync|eneshecan|WasIstLos|${{ env.RELEASE_VERSION }}|*x86_64.AppImage.zsync
+          UPDATE_INFO: gh-releases-zsync|xeco23|WasIstLos|${{ env.RELEASE_VERSION }}|*x86_64.AppImage.zsync
 
       - name: Push Tag
         id: push-tag

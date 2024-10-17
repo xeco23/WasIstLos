@@ -4,7 +4,7 @@ We are really happy you're reading this, because we need volunteers to help this
 
 ## Code
 
-You can contribute by opening issues, resolving any issue especially [good first issues](https://github.com/xeco/WasIstLos/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22),
+You can contribute by opening issues, resolving any issue especially [good first issues](https://github.com/xeco23/WasIstLos/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22),
 improving documentation, adding [translations](https://github.com/xeco23/WasIstLos/wiki#translations) in your language etc.
 
 ### Submitting changes
@@ -14,7 +14,7 @@ Read more about [Pull Requests](https://help.github.com/en/github/collaborating-
 
 
 ## Donations
-Donations are accepted through [opencollective](https://opencollective.com/wasistlos), [github sponsors](https://github.com/sponsors/eneshecan),
+Donations are accepted through [opencollective](https://opencollective.com/WasIstLos), [github sponsors](https://github.com/sponsors/xeco23),
 [ko_fi](https://ko-fi.com/xeco19) and [paypal](https://www.paypal.com/paypalme/xeco19).
 Money collected via Open Collective is distributed to code contributors.
 
