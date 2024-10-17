@@ -60,7 +60,7 @@ namespace wfl::util
         if (autostart)
         {
             constexpr auto const possibleDesktopFilePaths = std::array<char const*, 3>{"/usr/local/share/applications/" WFL_APP_ID ".desktop",
-                "/usr/share/applications/" WFL_APP_ID ".desktop", "/snap/WasIstLos/current/share/applications/" WFL_APP_ID ".desktop"};
+                "/usr/share/applications/" WFL_APP_ID ".desktop", "/snap/wasistlos/current/share/applications/" WFL_APP_ID ".desktop"};
 
             auto const it = std::find_if(possibleDesktopFilePaths.begin(), possibleDesktopFilePaths.end(),
                 [](auto const& elem)

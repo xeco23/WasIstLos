@@ -3,7 +3,7 @@ AppDir:
   path: ./AppDir
   app_info:
     id: com.github.xeco23.WasIstLos
-    name: WasIstLos
+    name: wasistlos
     icon: com.github.xeco23.WasIstLos
     version: !ENV ${RELEASE_VERSION}
     exec: usr/bin/wasistlos

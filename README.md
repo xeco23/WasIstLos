@@ -6,7 +6,7 @@ An unofficial WhatsApp desktop application for Linux.
     <a href="https://flathub.org/apps/details/com.github.xeco23.WasIstLos">
         <img align="center" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.png" width="200">
     </a>
-    <a href="https://snapcraft.io/WasIstLos">
+    <a href="https://snapcraft.io/wasistlos">
         <img align="center" alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" width="200">
     </a>
 </p>
