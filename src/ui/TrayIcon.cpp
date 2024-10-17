@@ -10,8 +10,8 @@ namespace wfl::ui
     {
         std::pair<char const*, char const*> getTrayIconNames()
         {
-            constexpr auto WHATSAPP_TRAY           = "whatsapp-tray";
-            constexpr auto WHATSAPP_TRAY_ATTENTION = "whatsapp-tray-attention";
+            constexpr auto WHATSAPP_TRAY            = "whatsapp-tray";
+            constexpr auto WHATSAPP_TRAY_ATTENTION  = "whatsapp-tray-attention";
             constexpr auto WASISTLOS_TRAY           = WFL_ICON "-tray";
             constexpr auto WASISTLOS_TRAY_ATTENTION = WFL_ICON "-tray-attention";
 

@@ -14,7 +14,7 @@ Read more about [Pull Requests](https://help.github.com/en/github/collaborating-
 
 
 ## Donations
-Donations are accepted through [opencollective](https://opencollective.com/whatsapp-for-linux), [github sponsors](https://github.com/sponsors/eneshecan),
+Donations are accepted through [opencollective](https://opencollective.com/wasistlos), [github sponsors](https://github.com/sponsors/eneshecan),
 [ko_fi](https://ko-fi.com/xeco19) and [paypal](https://www.paypal.com/paypalme/xeco19).
 Money collected via Open Collective is distributed to code contributors.
 
