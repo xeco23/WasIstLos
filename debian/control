@@ -1,4 +1,4 @@
-Source: WasIstLos
+Source: wasistlos
 Section: web
 Priority: optional
 Maintainer: Enes Hecan <nshecan@gmail.com>
@@ -14,7 +14,7 @@ Standards-Version: 4.5.1
 Homepage: https://github.com/xeco23/WasIstLos
 Rules-Requires-Root: no
 
-Package: WasIstLos
+Package: wasistlos
 Architecture: any
 Depends: glib-networking,
          gstreamer1.0-libav,

@@ -69,7 +69,7 @@ slots:
 
 apps:
   wasistlos:
-    command: usr/local/bin/WasIstLos
+    command: usr/local/bin/wasistlos
     desktop: usr/local/share/applications/com.github.xeco23.WasIstLos.desktop
     common-id: com.github.xeco23.WasIstLos
     plugs:

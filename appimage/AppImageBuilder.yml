@@ -6,7 +6,7 @@ AppDir:
     name: WasIstLos
     icon: com.github.xeco23.WasIstLos
     version: !ENV ${RELEASE_VERSION}
-    exec: usr/bin/WasIstLos
+    exec: usr/bin/wasistlos
     exec_args: $@
   after_bundle: |
     # Binary patch absolute paths in libwebkit files
