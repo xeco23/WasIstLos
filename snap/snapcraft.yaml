@@ -1,11 +1,11 @@
-name: WasIstLos
+name: wasistlos
 base: core20
 grade: stable
 confinement: strict
-adopt-info: WasIstLos
+adopt-info: wasistlos
 
 parts:
-  WasIstLos:
+  wasistlos:
     source-type: local
     source: .
     plugin: cmake
@@ -35,7 +35,7 @@ parts:
       - resource/com.github.xeco23.WasIstLos.appdata.xml
 
   cleanup:
-    after: [WasIstLos]
+    after: [wasistlos]
     plugin: nil
     build-snaps: [core20, gnome-3-38-2004, gtk-common-themes]
     override-prime: |
@@ -68,7 +68,7 @@ slots:
     name: com.github.xeco23.WasIstLos
 
 apps:
-  WasIstLos:
+  wasistlos:
     command: usr/local/bin/WasIstLos
     desktop: usr/local/share/applications/com.github.xeco23.WasIstLos.desktop
     common-id: com.github.xeco23.WasIstLos
