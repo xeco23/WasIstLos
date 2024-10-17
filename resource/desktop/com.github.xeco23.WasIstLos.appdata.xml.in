@@ -9,7 +9,7 @@
   <content_rating type="oars-1.1"/>
 
   <description>
-    <p>WhatsApp for Linux is an unofficial WhatsApp desktop application written in C++.</p>
+    <p>WasIstLos is an unofficial WhatsApp desktop application written in C++.</p>
   </description>
 
   <launchable type="desktop-id">${WFL_APP_ID}.desktop</launchable>
@@ -17,7 +17,7 @@
   <screenshots>
     <screenshot type="default">
       <caption>Application</caption>
-      <image>https://raw.githubusercontent.com/eneshecan/whatsapp-for-linux/master/screenshot/app.png</image>
+      <image>https://raw.githubusercontent.com/xeco23/WasIstLos/master/screenshot/app.png</image>
     </screenshot>
   </screenshots>
 
@@ -32,7 +32,7 @@
       <description>
         <p>Stable ${WFL_VERSION} release.</p>
       </description>
-      <url>https://github.com/eneshecan/whatsapp-for-linux/releases/tag/v${WFL_VERSION}</url>
+      <url>https://github.com/xeco23/WasIstLos/releases/tag/v${WFL_VERSION}</url>
     </release>
   </releases>
 </component>

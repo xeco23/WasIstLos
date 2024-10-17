@@ -10,19 +10,19 @@ namespace wfl::ui
     {
         std::pair<char const*, char const*> getTrayIconNames()
         {
-            constexpr auto const WHATSAPP_TRAY                     = "whatsapp-tray";
-            constexpr auto const WHATSAPP_TRAY_ATTENTION           = "whatsapp-tray-attention";
-            constexpr auto const WHATSAPP_FOR_LINUX_TRAY           = WFL_ICON "-tray";
-            constexpr auto const WHATSAPP_FOR_LINUX_TRAY_ATTENTION = WFL_ICON "-tray-attention";
+            constexpr auto WHATSAPP_TRAY           = "whatsapp-tray";
+            constexpr auto WHATSAPP_TRAY_ATTENTION = "whatsapp-tray-attention";
+            constexpr auto WASISTLOS_TRAY           = WFL_ICON "-tray";
+            constexpr auto WASISTLOS_TRAY_ATTENTION = WFL_ICON "-tray-attention";
 
             auto const iconTheme = Gtk::IconTheme::get_default();
             if (iconTheme->has_icon(WHATSAPP_TRAY) && iconTheme->has_icon(WHATSAPP_TRAY_ATTENTION))
             {
                 return {WHATSAPP_TRAY, WHATSAPP_TRAY_ATTENTION};
             }
-            else if (iconTheme->has_icon(WHATSAPP_FOR_LINUX_TRAY) && iconTheme->has_icon(WHATSAPP_FOR_LINUX_TRAY_ATTENTION))
+            else if (iconTheme->has_icon(WASISTLOS_TRAY) && iconTheme->has_icon(WASISTLOS_TRAY_ATTENTION))
             {
-                return {WHATSAPP_FOR_LINUX_TRAY, WHATSAPP_FOR_LINUX_TRAY_ATTENTION};
+                return {WASISTLOS_TRAY, WASISTLOS_TRAY_ATTENTION};
             }
             else
             {

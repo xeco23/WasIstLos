@@ -4,7 +4,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: POEditor.com\n"
-"Project-Id-Version: WhatsApp for Linux\n"
+"Project-Id-Version: WasIstLos\n"
 "Language: ka\n"
 
 #: ../src/ui/MainWindow.cpp:343 ../src/ui/TrayIcon.cpp:46
@@ -13,8 +13,8 @@ msgid "About"
 msgstr "შესახებ"
 
 #: ../src/ui/MainWindow.cpp:345 ../resource/ui/MainWindow.ui.h:6
-msgid "WhatsApp for Linux"
-msgstr "WhatsApp-ი ლინუქსისთვის"
+msgid "WasIstLos"
+msgstr "WasIstLos"
 
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"

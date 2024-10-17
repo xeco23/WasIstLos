@@ -1,4 +1,4 @@
-Source: whatsapp-for-linux
+Source: WasIstLos
 Section: web
 Priority: optional
 Maintainer: Enes Hecan <nshecan@gmail.com>
@@ -11,10 +11,10 @@ Build-Depends: cmake,
                libcanberra-dev,
                pkgconf
 Standards-Version: 4.5.1
-Homepage: https://github.com/eneshecan/whatsapp-for-linux
+Homepage: https://github.com/xeco23/WasIstLos
 Rules-Requires-Root: no
 
-Package: whatsapp-for-linux
+Package: WasIstLos
 Architecture: any
 Depends: glib-networking,
          gstreamer1.0-libav,

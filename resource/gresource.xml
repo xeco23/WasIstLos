@@ -5,9 +5,9 @@
     <file>ui/PreferencesWindow.ui</file>
     <file>ui/PhoneNumberDialog.ui</file>
     <file>ui/ShortcutsWindow.ui</file>
-    <file>image/icons/hicolor/16x16/apps/com.github.eneshecan.WhatsAppForLinux.png</file>
-    <file>image/icons/hicolor/32x32/apps/com.github.eneshecan.WhatsAppForLinux.png</file>
-    <file>image/icons/hicolor/64x64/apps/com.github.eneshecan.WhatsAppForLinux.png</file>
-    <file>image/icons/hicolor/128x128/apps/com.github.eneshecan.WhatsAppForLinux.png</file>
+    <file>image/icons/hicolor/16x16/apps/com.github.xeco23.WasIstLos.png</file>
+    <file>image/icons/hicolor/32x32/apps/com.github.xeco23.WasIstLos.png</file>
+    <file>image/icons/hicolor/64x64/apps/com.github.xeco23.WasIstLos.png</file>
+    <file>image/icons/hicolor/128x128/apps/com.github.xeco23.WasIstLos.png</file>
   </gresource>
 </gresources>

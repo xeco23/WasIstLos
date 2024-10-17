@@ -2,11 +2,11 @@ version: 1
 AppDir:
   path: ./AppDir
   app_info:
-    id: com.github.eneshecan.WhatsAppForLinux
-    name: whatsapp-for-linux
-    icon: com.github.eneshecan.WhatsAppForLinux
+    id: com.github.xeco23.WasIstLos
+    name: WasIstLos
+    icon: com.github.xeco23.WasIstLos
     version: !ENV ${RELEASE_VERSION}
-    exec: usr/bin/whatsapp-for-linux
+    exec: usr/bin/wasistlos
     exec_args: $@
   after_bundle: |
     # Binary patch absolute paths in libwebkit files

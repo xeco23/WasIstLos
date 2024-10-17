@@ -50,7 +50,7 @@ jobs:
         with:
           recipe: "./appimage/AppImageBuilder.yml"
         env:
-          UPDATE_INFO: gh-releases-zsync|eneshecan|whatsapp-for-linux|${{ env.RELEASE_VERSION }}|*x86_64.AppImage.zsync
+          UPDATE_INFO: gh-releases-zsync|eneshecan|WasIstLos|${{ env.RELEASE_VERSION }}|*x86_64.AppImage.zsync
 
       - name: Push Tag
         id: push-tag
@@ -87,8 +87,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create-release.outputs.upload_url }}
-          asset_path: "whatsapp-for-linux_${{ env.RELEASE_VERSION }}_amd64.deb"
-          asset_name: "whatsapp-for-linux_${{ env.RELEASE_VERSION }}_amd64.deb"
+          asset_path: "WasIstLos_${{ env.RELEASE_VERSION }}_amd64.deb"
+          asset_name: "WasIstLos_${{ env.RELEASE_VERSION }}_amd64.deb"
           asset_content_type: application/deb
 
       - name: Upload Snap Package
@@ -109,8 +109,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create-release.outputs.upload_url }}
-          asset_path: "whatsapp-for-linux-${{ env.RELEASE_VERSION }}-x86_64.AppImage"
-          asset_name: "whatsapp-for-linux-${{ env.RELEASE_VERSION }}-x86_64.AppImage"
+          asset_path: "WasIstLos-${{ env.RELEASE_VERSION }}-x86_64.AppImage"
+          asset_name: "WasIstLos-${{ env.RELEASE_VERSION }}-x86_64.AppImage"
           asset_content_type: application/appimage
 
       - name: Publish Snap to Store

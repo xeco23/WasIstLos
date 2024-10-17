@@ -1,20 +1,20 @@
-# WhatsApp for Linux
+# WasIstLos
 
 An unofficial WhatsApp desktop application for Linux.
 
 <p align="left">
-    <a href="https://flathub.org/apps/details/com.github.eneshecan.WhatsAppForLinux">
+    <a href="https://flathub.org/apps/details/com.github.xeco23.WasIstLos">
         <img align="center" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.png" width="200">
     </a>
-    <a href="https://snapcraft.io/whatsapp-for-linux">
+    <a href="https://snapcraft.io/WasIstLos">
         <img align="center" alt="Get it from the Snap Store" src="https://snapcraft.io/static/images/badges/en/snap-store-black.svg" width="200">
     </a>
 </p>
 
-[![Action Status](https://github.com/eneshecan/whatsapp-for-linux/workflows/Linter/badge.svg)](https://github.com/eneshecan/whatsapp-for-linux/actions/workflows/linter.yml)
-[![Action Status](https://github.com/eneshecan/whatsapp-for-linux/workflows/Build/badge.svg)](https://github.com/eneshecan/whatsapp-for-linux/actions/workflows/build.yml)
-[![Action Status](https://github.com/eneshecan/whatsapp-for-linux/workflows/Install/badge.svg)](https://github.com/eneshecan/whatsapp-for-linux/actions/workflows/install.yml)
-[![Action Status](https://github.com/eneshecan/whatsapp-for-linux/workflows/Release/badge.svg)](https://github.com/eneshecan/whatsapp-for-linux/actions/workflows/release.yml)
+[![Action Status](https://github.com/xeco23/WasIstLos/workflows/Linter/badge.svg)](https://github.com/xeco23/WasIstLos/actions/workflows/linter.yml)
+[![Action Status](https://github.com/xeco23/WasIstLos/workflows/Build/badge.svg)](https://github.com/xeco23/WasIstLos/actions/workflows/build.yml)
+[![Action Status](https://github.com/xeco23/WasIstLos/workflows/Install/badge.svg)](https://github.com/xeco23/WasIstLos/actions/workflows/install.yml)
+[![Action Status](https://github.com/xeco23/WasIstLos/workflows/Release/badge.svg)](https://github.com/xeco23/WasIstLos/actions/workflows/release.yml)
 [![POEditor](https://img.shields.io/badge/Translations-POEditor-brightgreen)](https://poeditor.com/join/project/jMGkxVn3vN)
 
 ![App Window](screenshot/app.png)
@@ -22,8 +22,8 @@ An unofficial WhatsApp desktop application for Linux.
 
 ## About
 
-WhatsApp for Linux is an unofficial WhatsApp desktop application written in C++ with the help of gtkmm and WebKitGtk libraries.
-Check out [wiki](https://github.com/eneshecan/whatsapp-for-linux/wiki) for further details.
+WasIstLos is an unofficial WhatsApp desktop application written in C++ with the help of gtkmm and WebKitGtk libraries.
+Check out [wiki](https://github.com/xeco23/WasIstLos/wiki) for further details.
 
 
 ## Features
@@ -41,7 +41,7 @@ Check out [wiki](https://github.com/eneshecan/whatsapp-for-linux/wiki) for furth
 * Open chat by phone number
 
 
-## Using WhatsApp for Linux
+## Using WasIstLos
 
 The application is available from a number of Linux distributions:
 
@@ -75,7 +75,7 @@ make -j4
 make update-translation
 
 # Run
-./whatsapp-for-linux
+./WasIstLos
 ```
 
 ### Local installation

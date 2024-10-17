@@ -11,7 +11,7 @@ parts:
     plugin: cmake
     override-pull: |
       snapcraftctl pull
-      sed -i.bak -e 's|Icon=${WFL_ICON}|Icon=usr/local/share/icons/hicolor/256x256/apps/com.github.eneshecan.WhatsAppForLinux.png|g' resource/desktop/com.github.eneshecan.WhatsAppForLinux.desktop.in
+      sed -i.bak -e 's|Icon=${WFL_ICON}|Icon=usr/local/share/icons/hicolor/256x256/apps/com.github.xeco23.WasIstLos.png|g' resource/desktop/com.github.xeco23.WasIstLos.desktop.in
     cmake-parameters:
       - -DCMAKE_BUILD_TYPE=Release
     build-packages:
@@ -32,7 +32,7 @@ parts:
       - gstreamer1.0-plugins-bad
       - gstreamer1.0-libav
     parse-info:
-      - resource/com.github.eneshecan.WhatsAppForLinux.appdata.xml
+      - resource/com.github.xeco23.WasIstLos.appdata.xml
 
   cleanup:
     after: [whatsapp-for-linux]
@@ -65,13 +65,13 @@ slots:
   dbus-app:
     interface: dbus
     bus: session
-    name: com.github.eneshecan.WhatsAppForLinux
+    name: com.github.xeco23.WasIstLos
 
 apps:
   whatsapp-for-linux:
-    command: usr/local/bin/whatsapp-for-linux
-    desktop: usr/local/share/applications/com.github.eneshecan.WhatsAppForLinux.desktop
-    common-id: com.github.eneshecan.WhatsAppForLinux
+    command: usr/local/bin/WasIstLos
+    desktop: usr/local/share/applications/com.github.xeco23.WasIstLos.desktop
+    common-id: com.github.xeco23.WasIstLos
     plugs:
       - desktop
       - desktop-legacy

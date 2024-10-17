@@ -1,11 +1,11 @@
-# Template translation file for whatsapp-for-linux
+# Template translation file for WasIstLos
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the whatsapp-for-linux package.
+# This file is distributed under the same license as the WasIstLos package.
 #
 # Serhiy Yehorov <prapor@unixzone.org.ua>, 2024.
 msgid ""
 msgstr ""
-"Project-Id-Version: whatsapp-for-linux\n"
+"Project-Id-Version: WasIstLos\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-10 22:56+0100\n"
 "PO-Revision-Date: 2024-09-06 21:39+0300\n"
@@ -24,8 +24,8 @@ msgid "About"
 msgstr "Про програму"
 
 #: ../src/ui/MainWindow.cpp:345 ../resource/ui/MainWindow.ui.h:6
-msgid "WhatsApp for Linux"
-msgstr "WhatsApp для Linux"
+msgid "WasIstLos"
+msgstr "WasIstLos"
 
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"

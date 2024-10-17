@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: whatsapp-for-linux
-Upstream-Contact: https://github.com/eneshecan/whatsapp-for-linux/issues
-Source: https://github.com/eneshecan/whatsapp-for-linux
+Upstream-Name: WasIstLos
+Upstream-Contact: https://github.com/xeco23/WasIstLos/issues
+Source: https://github.com/xeco23/WasIstLos
 
 Files: *
 Copyright: 2020 Enes Hecan <nshecan@gmail.com>
