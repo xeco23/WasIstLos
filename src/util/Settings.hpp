@@ -2,7 +2,7 @@
 
 #include "SettingMap.hpp"
 
-namespace wfl::util
+namespace wil::util
 {
     class Settings
     {

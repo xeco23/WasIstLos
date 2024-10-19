@@ -3,7 +3,7 @@
 #include <canberra.h>
 #include <string_view>
 
-namespace wfl::util
+namespace wil::util
 {
     class Sound
     {

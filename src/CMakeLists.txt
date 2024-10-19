@@ -1,5 +1,5 @@
 message(STATUS "Configuring some source code files")
-file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/VERSION" ${WFL_VERSION})
+file(WRITE "${CMAKE_CURRENT_BINARY_DIR}/VERSION" ${WIL_VERSION})
 configure_file(${CMAKE_CURRENT_SOURCE_DIR}/Config.hpp.in ${CMAKE_CURRENT_BINARY_DIR}/Config.hpp)
 
 find_package(PkgConfig REQUIRED)
@@ -27,7 +27,7 @@ include_directories(${CANBERRA_INCLUDE_DIRS})
 include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 list(APPEND
-        WFL_SRCS
+        WIL_SRCS
         main.cpp
         Resources.c
         util/Helper.cpp
@@ -41,7 +41,7 @@ list(APPEND
         ui/WebView.cpp
     )
 
-add_executable(${CMAKE_PROJECT_NAME} ${WFL_SRCS})
+add_executable(${CMAKE_PROJECT_NAME} ${WIL_SRCS})
 target_link_libraries(${CMAKE_PROJECT_NAME}
         ${GTKMM_LIBRARIES}
         ${WEBKIT_LIBRARIES}

@@ -8,7 +8,7 @@
 #include "TrayIcon.hpp"
 #include "WebView.hpp"
 
-namespace wfl::ui
+namespace wil::ui
 {
     class PreferencesWindow : public Gtk::Window
     {

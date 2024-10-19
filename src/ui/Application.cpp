@@ -4,7 +4,7 @@
 #include "Config.hpp"
 #include "../util/Settings.hpp"
 
-namespace wfl::ui
+namespace wil::ui
 {
     Application* Application::m_instance = nullptr;
 
@@ -14,7 +14,7 @@ namespace wfl::ui
     }
 
     Application::Application(int argc, char** argv)
-        : Gtk::Application{argc, argv, WFL_APP_ID, Gio::APPLICATION_HANDLES_OPEN}
+        : Gtk::Application{argc, argv, WIL_APP_ID, Gio::APPLICATION_HANDLES_OPEN}
         , m_onHold{false}
         , m_mainWindow{nullptr}
     {
@@ -52,7 +52,7 @@ namespace wfl::ui
 
         auto const refBuilder = Gtk::Builder::create_from_resource("/main/ui/MainWindow.ui");
 
-        wfl::ui::MainWindow* window = nullptr;
+        wil::ui::MainWindow* window = nullptr;
         refBuilder->get_widget_derived("window_main", window);
         m_mainWindow.reset(window);
 
@@ -63,8 +63,8 @@ namespace wfl::ui
     {
         Gtk::Application::on_activate();
 
-        if (wfl::util::Settings::getInstance().getValue<bool>("general", "start-in-tray")
-            && wfl::util::Settings::getInstance().getValue<bool>("general", "close-to-tray"))
+        if (wil::util::Settings::getInstance().getValue<bool>("general", "start-in-tray")
+            && wil::util::Settings::getInstance().getValue<bool>("general", "close-to-tray"))
         {
             if (!m_onHold)
             {
@@ -76,7 +76,7 @@ namespace wfl::ui
                 m_mainWindow->present();
             }
         }
-        else if (wfl::util::Settings::getInstance().getValue<bool>("general", "start-minimized"))
+        else if (wil::util::Settings::getInstance().getValue<bool>("general", "start-minimized"))
         {
             m_mainWindow->is_visible() ? m_mainWindow->iconify() : m_mainWindow->deiconify();
         }

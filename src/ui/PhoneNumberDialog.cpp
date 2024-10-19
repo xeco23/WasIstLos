@@ -1,6 +1,6 @@
 #include "PhoneNumberDialog.hpp"
 
-namespace wfl::ui
+namespace wil::ui
 {
     PhoneNumberDialog::PhoneNumberDialog(BaseObjectType* cobject, Glib::RefPtr<Gtk::Builder> const& refBuilder)
         : Gtk::Dialog{cobject}

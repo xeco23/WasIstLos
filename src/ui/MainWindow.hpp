@@ -11,7 +11,7 @@
 #include "WebView.hpp"
 #include "../util/Sound.hpp"
 
-namespace wfl::ui
+namespace wil::ui
 {
     class MainWindow : public Gtk::ApplicationWindow
     {

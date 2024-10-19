@@ -3,7 +3,7 @@
 #include <gtkmm/widget.h>
 #include <webkit2/webkit2.h>
 
-namespace wfl::ui
+namespace wil::ui
 {
     namespace detail
     {

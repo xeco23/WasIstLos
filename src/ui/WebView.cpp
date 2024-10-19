@@ -13,7 +13,7 @@
 #include "../util/Settings.hpp"
 #include "Config.hpp"
 
-namespace wfl::ui
+namespace wil::ui
 {
     namespace
     {
@@ -190,7 +190,7 @@ namespace wfl::ui
         auto const webContext = webkit_web_view_get_context(*this);
 
         auto configDir   = Glib::get_user_config_dir();
-        auto cssFilePath = configDir + "/" + WFL_NAME + "/web.css";
+        auto cssFilePath = configDir + "/" + WIL_NAME + "/web.css";
 
         g_signal_connect(*this, "load-changed", G_CALLBACK(detail::loadChanged), this);
         g_signal_connect(*this, "permission-request", G_CALLBACK(permissionRequest), nullptr);

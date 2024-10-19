@@ -5,7 +5,7 @@
 #include <gtkmm/button.h>
 #include <gtkmm/entry.h>
 
-namespace wfl::ui
+namespace wil::ui
 {
     class PhoneNumberDialog : public Gtk::Dialog
     {

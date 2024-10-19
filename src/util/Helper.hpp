@@ -1,6 +1,6 @@
 #pragma once
 
-namespace wfl::util
+namespace wil::util
 {
     void redirectOutputToLogger();
 }

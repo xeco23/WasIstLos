@@ -4,7 +4,7 @@
 #include <giomm/file.h>
 #include "Config.hpp"
 
-namespace wfl::util
+namespace wil::util
 {
     Settings& Settings::getInstance()
     {
@@ -15,9 +15,9 @@ namespace wfl::util
     Settings::Settings()
         : m_settingMap{}
         , m_configDir{Glib::get_user_config_dir()}
-        , m_configAppDir{m_configDir + "/" WFL_NAME}
+        , m_configAppDir{m_configDir + "/" WIL_NAME}
         , m_configFilePath{m_configAppDir + "/settings.conf"}
-        , m_autostartDesktopFilePath{m_configDir + "/autostart/" WFL_APP_ID ".desktop"}
+        , m_autostartDesktopFilePath{m_configDir + "/autostart/" WIL_APP_ID ".desktop"}
     {
         if (auto const configFile = Gio::File::create_for_path(m_configFilePath); !configFile->query_exists())
         {
@@ -59,8 +59,8 @@ namespace wfl::util
         auto destDesktopFile = Gio::File::create_for_path(m_autostartDesktopFilePath);
         if (autostart)
         {
-            constexpr auto const possibleDesktopFilePaths = std::array<char const*, 3>{"/usr/local/share/applications/" WFL_APP_ID ".desktop",
-                "/usr/share/applications/" WFL_APP_ID ".desktop", "/snap/wasistlos/current/share/applications/" WFL_APP_ID ".desktop"};
+            constexpr auto const possibleDesktopFilePaths = std::array<char const*, 3>{"/usr/local/share/applications/" WIL_APP_ID ".desktop",
+                "/usr/share/applications/" WIL_APP_ID ".desktop", "/snap/wasistlos/current/share/applications/" WIL_APP_ID ".desktop"};
 
             auto const it = std::find_if(possibleDesktopFilePaths.begin(), possibleDesktopFilePaths.end(),
                 [](auto const& elem)

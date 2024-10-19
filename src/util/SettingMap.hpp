@@ -4,7 +4,7 @@
 #include <type_traits>
 #include <glibmm/keyfile.h>
 
-namespace wfl::util
+namespace wil::util
 {
     class SettingMap
     {

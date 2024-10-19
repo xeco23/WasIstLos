@@ -3,7 +3,7 @@
 #include <gtkmm/settings.h>
 #include "../util/Settings.hpp"
 
-namespace wfl::ui
+namespace wil::ui
 {
     PreferencesWindow::PreferencesWindow(BaseObjectType* cobject, Glib::RefPtr<Gtk::Builder> const& refBuilder, TrayIcon& trayIcon, WebView& webView)
         : Gtk::Window{cobject}

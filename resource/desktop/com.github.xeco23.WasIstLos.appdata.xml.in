@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright 2020-2022 Enes Hecan <nshecan@gmail.com> -->
 <component type="desktop-application">
-  <id>${WFL_APP_ID}</id>
+  <id>${WIL_APP_ID}</id>
   <metadata_license>FSFAP</metadata_license>
   <project_license>GPL-3.0</project_license>
-  <name>${WFL_FRIENDLY_NAME}</name>
+  <name>${WIL_FRIENDLY_NAME}</name>
   <summary>Unofficial WhatsApp application</summary>
   <content_rating type="oars-1.1"/>
 
@@ -12,7 +12,7 @@
     <p>WasIstLos is an unofficial WhatsApp desktop application written in C++.</p>
   </description>
 
-  <launchable type="desktop-id">${WFL_APP_ID}.desktop</launchable>
+  <launchable type="desktop-id">${WIL_APP_ID}.desktop</launchable>
 
   <screenshots>
     <screenshot type="default">
@@ -21,18 +21,18 @@
     </screenshot>
   </screenshots>
 
-  <url type="homepage">${WFL_HOMEPAGE}</url>
-  <url type="bugtracker">${WFL_HOMEPAGE}/issues</url>
+  <url type="homepage">${WIL_HOMEPAGE}</url>
+  <url type="bugtracker">${WIL_HOMEPAGE}/issues</url>
 
   <developer_name>Enes Hecan</developer_name>
   <update_contact>nshecan_AT_gmail.com</update_contact>
 
   <releases>
-    <release version="${WFL_VERSION}" date="${WFL_BUILD_DATE}">
+    <release version="${WIL_VERSION}" date="${WIL_BUILD_DATE}">
       <description>
-        <p>Stable ${WFL_VERSION} release.</p>
+        <p>Stable ${WIL_VERSION} release.</p>
       </description>
-      <url>https://github.com/xeco23/WasIstLos/releases/tag/v${WFL_VERSION}</url>
+      <url>https://github.com/xeco23/WasIstLos/releases/tag/v${WIL_VERSION}</url>
     </release>
   </releases>
 </component>

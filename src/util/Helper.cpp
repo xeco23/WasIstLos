@@ -5,7 +5,7 @@
 #include <giomm/file.h>
 #include "Config.hpp"
 
-namespace wfl::util
+namespace wil::util
 {
     void redirectOutputToLogger()
     {
@@ -15,7 +15,7 @@ namespace wfl::util
             return;
         }
 
-        auto const fl = ::popen("logger -i -s -t " WFL_NAME, "w");
+        auto const fl = ::popen("logger -i -s -t " WIL_NAME, "w");
         if (!fl)
         {
             auto const errorNumber = errno;

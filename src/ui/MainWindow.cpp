@@ -9,7 +9,7 @@
 #include "Config.hpp"
 #include "../util/Settings.hpp"
 
-namespace wfl::ui
+namespace wil::ui
 {
     MainWindow::MainWindow(BaseObjectType* cobject, Glib::RefPtr<Gtk::Builder> const& refBuilder)
         : Gtk::ApplicationWindow{cobject}
@@ -24,10 +24,10 @@ namespace wfl::ui
         , m_buttonZoomLevel{nullptr}
         , m_fullscreen{false}
     {
-        auto const appIcon16x16   = Gdk::Pixbuf::create_from_resource("/main/image/icons/hicolor/16x16/apps/" WFL_ICON ".png");
-        auto const appIcon32x32   = Gdk::Pixbuf::create_from_resource("/main/image/icons/hicolor/32x32/apps/" WFL_ICON ".png");
-        auto const appIcon64x64   = Gdk::Pixbuf::create_from_resource("/main/image/icons/hicolor/64x64/apps/" WFL_ICON ".png");
-        auto const appIcon128x128 = Gdk::Pixbuf::create_from_resource("/main/image/icons/hicolor/128x128/apps/" WFL_ICON ".png");
+        auto const appIcon16x16   = Gdk::Pixbuf::create_from_resource("/main/image/icons/hicolor/16x16/apps/" WIL_ICON ".png");
+        auto const appIcon32x32   = Gdk::Pixbuf::create_from_resource("/main/image/icons/hicolor/32x32/apps/" WIL_ICON ".png");
+        auto const appIcon64x64   = Gdk::Pixbuf::create_from_resource("/main/image/icons/hicolor/64x64/apps/" WIL_ICON ".png");
+        auto const appIcon128x128 = Gdk::Pixbuf::create_from_resource("/main/image/icons/hicolor/128x128/apps/" WIL_ICON ".png");
         set_icon_list({appIcon16x16, appIcon32x32, appIcon64x64, appIcon128x128});
         set_default_icon(appIcon64x64);
 
@@ -341,10 +341,10 @@ namespace wfl::ui
         auto aboutDialog = Gtk::AboutDialog{};
 
         aboutDialog.set_title(_("About"));
-        aboutDialog.set_version(WFL_VERSION);
+        aboutDialog.set_version(WIL_VERSION);
         aboutDialog.set_program_name(_("WasIstLos"));
         aboutDialog.set_comments(_("An unofficial WhatsApp desktop application for Linux"));
-        aboutDialog.set_website(WFL_HOMEPAGE);
+        aboutDialog.set_website(WIL_HOMEPAGE);
         aboutDialog.set_website_label(_("GitHub Repository"));
         aboutDialog.set_license_type(Gtk::LICENSE_GPL_3_0);
 

@@ -3,7 +3,7 @@
 #include <gtkmm/application.h>
 #include "MainWindow.hpp"
 
-namespace wfl::ui
+namespace wil::ui
 {
     class Application : public Gtk::Application
     {

@@ -2,18 +2,18 @@
 #include <iostream>
 #include "Config.hpp"
 
-namespace wfl::util
+namespace wil::util
 {
     Sound::Sound()
         : m_context{nullptr}
     {
         ca_context_create(&m_context);
 
-        ca_context_change_props(m_context, CA_PROP_APPLICATION_ID, WFL_APP_ID, nullptr);
-        ca_context_change_props(m_context, CA_PROP_APPLICATION_NAME, WFL_FRIENDLY_NAME, nullptr);
-        ca_context_change_props(m_context, CA_PROP_APPLICATION_VERSION, WFL_VERSION, nullptr);
-        ca_context_change_props(m_context, CA_PROP_APPLICATION_ICON_NAME, WFL_ICON, nullptr);
-        ca_context_change_props(m_context, CA_PROP_EVENT_DESCRIPTION, WFL_FRIENDLY_NAME " Notification", nullptr);
+        ca_context_change_props(m_context, CA_PROP_APPLICATION_ID, WIL_APP_ID, nullptr);
+        ca_context_change_props(m_context, CA_PROP_APPLICATION_NAME, WIL_FRIENDLY_NAME, nullptr);
+        ca_context_change_props(m_context, CA_PROP_APPLICATION_VERSION, WIL_VERSION, nullptr);
+        ca_context_change_props(m_context, CA_PROP_APPLICATION_ICON_NAME, WIL_ICON, nullptr);
+        ca_context_change_props(m_context, CA_PROP_EVENT_DESCRIPTION, WIL_FRIENDLY_NAME " Notification", nullptr);
     }
 
     Sound::~Sound()
