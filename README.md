@@ -2,6 +2,9 @@
 
 An unofficial WhatsApp desktop application for Linux.
 
+> [!NOTE]
+> We are looking for flatpak and snap maintainers. Please get in touch if you are interested!
+
 <p align="left">
     <a href="https://flathub.org/apps/details/com.github.xeco23.WasIstLos">
         <img align="center" alt="Download on Flathub" src="https://flathub.org/assets/badges/flathub-badge-en.png" width="200">
