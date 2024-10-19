@@ -3,6 +3,17 @@ base: core20
 grade: stable
 confinement: strict
 adopt-info: wasistlos
+license: GPL-3.0
+website: https://github.com/xeco23/WasIstLos
+icon: resource/image/icons/hicolor/256x256/apps/com.github.xeco23.WasIstLos.png
+
+architectures:
+  - build-on: [amd64]
+    run-on: [amd64]
+  - build-on: [arm64]
+    run-on: [arm64]
+  - build-on: [armhf]
+    run-on: [armhf]
 
 parts:
   wasistlos:
