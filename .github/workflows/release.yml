@@ -112,12 +112,3 @@ jobs:
           asset_path: "wasistlos-${{ env.RELEASE_VERSION }}-x86_64.AppImage"
           asset_name: "wasistlos-${{ env.RELEASE_VERSION }}-x86_64.AppImage"
           asset_content_type: application/appimage
-
-      - name: Publish Snap to Store
-        id: snapcraft-publish
-        uses: snapcore/action-publish@v1
-        env:
-          SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAP_STORE_LOGIN }}
-        with:
-          snap: ${{ steps.snapcraft.outputs.snap }}
-          release: stable
