@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: WasIstLos\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-12-10 22:56+0100\n"
-"PO-Revision-Date: 2023-08-08 13:28+0200\n"
+"PO-Revision-Date: 2024-20-10 15:04+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -55,31 +55,31 @@ msgstr ""
 msgid "Quit"
 msgstr ""
 
-#: ../src/ui/WebView.cpp:40
+#: ../src/ui/WebView.cpp:45
 msgid "Permission Request"
 msgstr ""
 
-#: ../src/ui/WebView.cpp:41
+#: ../src/ui/WebView.cpp:46
 msgid "Would you like to allow permissions?"
 msgstr ""
 
-#: ../src/ui/WebView.cpp:75
+#: ../src/ui/WebView.cpp:80
 msgid "Save File"
 msgstr ""
 
-#: ../src/ui/WebView.cpp:76
+#: ../src/ui/WebView.cpp:81
 msgid "Ok"
 msgstr ""
 
-#: ../src/ui/WebView.cpp:77
+#: ../src/ui/WebView.cpp:82
 msgid "Cancel"
 msgstr ""
 
-#: ../src/ui/WebView.cpp:328
+#: ../src/ui/WebView.cpp:356
 msgid "Unresponsive"
 msgstr ""
 
-#: ../src/ui/WebView.cpp:329
+#: ../src/ui/WebView.cpp:357
 msgid "The application is not responding. Would you like to reload?"
 msgstr ""
 
