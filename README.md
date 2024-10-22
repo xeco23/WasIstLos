@@ -48,7 +48,7 @@ Check out [wiki](https://github.com/xeco23/WasIstLos/wiki) for further details.
 
 The application is available from a number of Linux distributions:
 
-[![Packaging Status](https://repology.org/badge/vertical-allrepos/whatsapp-for-linux.svg)](https://repology.org/project/whatsapp-for-linux/versions)
+[![Packaging status](https://repology.org/badge/vertical-allrepos/wasistlos.svg)](https://repology.org/project/wasistlos/versions)
 
 
 ## Dependencies
@@ -78,7 +78,7 @@ make -j4
 make update-translation
 
 # Run
-./WasIstLos
+./wasistlos
 ```
 
 ### Local installation
