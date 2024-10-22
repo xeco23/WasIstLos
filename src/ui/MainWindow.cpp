@@ -238,7 +238,7 @@ namespace wil::ui
     {
         if (!m_preferencesWindow)
         {
-            auto const refBuilder = Gtk::Builder::create_from_resource("/main/ui/PreferencesWindow.ui");
+            auto const refBuilder = Gtk::Builder::create_from_resource("/main/ui/HdyPreferencesWindow.ui");
             refBuilder->get_widget_derived("window_preferences", m_preferencesWindow, m_trayIcon, m_webView);
         }
 
