@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: WasIstLos\n"
+"Report-Msgid-Bugs-To: https://github.com/xeco23/WasIstLos/issues\n"
+"POT-Creation-Date: 2024-10-22 14:04+0200\n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: WasIstLos\n"
-"Language: bn\n"
 
 #: ../src/ui/MainWindow.cpp:343 ../src/ui/TrayIcon.cpp:46
 #: ../resource/ui/MainWindow.ui.h:4
@@ -19,6 +20,10 @@ msgstr "WasIstLos"
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"
 msgstr "Linux জন্য একটি অনানুষ্ঠানিক WhatsApp ডেস্কটপ অ্যাপ্লিকেশন"
+
+#: ../src/ui/MainWindow.cpp:348
+msgid "GitHub Repository"
+msgstr "GitHub সংগ্রহস্থল"
 
 #: ../src/ui/PreferencesWindow.cpp:40
 msgid "On Demand"
@@ -41,23 +46,31 @@ msgstr "দেখান"
 msgid "Quit"
 msgstr "প্রস্থান করুন"
 
-#: ../src/ui/WebView.cpp:75
+#: ../src/ui/WebView.cpp:45
+msgid "Permission Request"
+msgstr "অনুমতির অনুরোধ"
+
+#: ../src/ui/WebView.cpp:46
+msgid "Would you like to allow permissions?"
+msgstr "আপনি কি অনুমতি দিতে চান?"
+
+#: ../src/ui/WebView.cpp:80
 msgid "Save File"
 msgstr "ফাইল সংরক্ষণ করুন"
 
-#: ../src/ui/WebView.cpp:76
+#: ../src/ui/WebView.cpp:81
 msgid "Ok"
 msgstr "ঠিক আছে"
 
-#: ../src/ui/WebView.cpp:77
+#: ../src/ui/WebView.cpp:82
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
-#: ../src/ui/WebView.cpp:328
+#: ../src/ui/WebView.cpp:356
 msgid "Unresponsive"
 msgstr "প্রতিক্রিয়াহীন"
 
-#: ../src/ui/WebView.cpp:329
+#: ../src/ui/WebView.cpp:357
 msgid "The application is not responding. Would you like to reload?"
 msgstr "আপ্লিকেশনটি সাড়া দিচ্ছেনা। আপনি কি পুনঃরাই খুলতে চান?"
 
@@ -117,6 +130,14 @@ msgstr "ন্যূনতম হিসাবে অ্যাপ্লিকে�
 msgid "Start application after system boots"
 msgstr "সিস্টেম বুট হলে আপ্লিকেশন খুলুন"
 
+#: ../resource/ui/PreferencesWindow.ui.h:9
+msgid "Enable Notification Sounds"
+msgstr "বিজ্ঞপ্তির শব্দ সক্রিয় করুন"
+
+#: ../resource/ui/PreferencesWindow.ui.h:10
+msgid "Play sound on a notification raised by the application"
+msgstr "অ্যাপ্লিকেশন দ্বারা উত্থাপিত একটি বিজ্ঞপ্তিতে শব্দ বাজান"
+
 #: ../resource/ui/PreferencesWindow.ui.h:11
 #: ../resource/ui/ShortcutsWindow.ui.h:2
 msgid "General"
@@ -127,8 +148,11 @@ msgid "Prefer Dark Theme"
 msgstr "ডার্ক থিম পছন্দ করুন"
 
 #: ../resource/ui/PreferencesWindow.ui.h:13
-msgid "Prefer dark theme for the application if system theme includes a dark variant"
-msgstr "যদি সিস্টেম থিমে একটি অন্ধকার বৈকল্পিক অন্তর্ভুক্ত থাকে তবে অ্যাপ্লিকেশনের জন্য অন্ধকার থিম পছন্দ করুন৷"
+msgid ""
+"Prefer dark theme for the application if system theme includes a dark variant"
+msgstr ""
+"যদি সিস্টেম থিমে একটি অন্ধকার বৈকল্পিক অন্তর্ভুক্ত থাকে তবে অ্যাপ্লিকেশনের জন্য অন্ধকার "
+"থিম পছন্দ করুন৷"
 
 #: ../resource/ui/PreferencesWindow.ui.h:14
 msgid "Appearance"
@@ -150,6 +174,18 @@ msgstr "ওয়েবকিট দ্বারা ব্যবহৃত হা
 msgid "Allow permissions on application startup"
 msgstr "অ্যাপ্লিকেশন স্টার্টআপে অনুমতি দিন"
 
+#: ../resource/ui/PreferencesWindow.ui.h:19
+msgid "Minimum Font Size"
+msgstr "ন্যূনতম ফন্ট সাইজ"
+
+#: ../resource/ui/PreferencesWindow.ui.h:20
+msgid ""
+"Minimum font size used to display text, values other than 0 can potentially "
+"break page layouts"
+msgstr ""
+"পাঠ্য প্রদর্শনের জন্য ব্যবহৃত ন্যূনতম ফন্টের আকার, 0 ব্যতীত অন্য মানগুলি সম্ভাব্যভাবে "
+"পৃষ্ঠার বিন্যাস ভেঙে দিতে পারে"
+
 #: ../resource/ui/PreferencesWindow.ui.h:21
 msgid "Web"
 msgstr "ওয়েব"
@@ -162,6 +198,14 @@ msgstr "শর্টকাট"
 msgid "Refresh Page"
 msgstr "পৃষ্ঠা রিফ্রেশ করুন"
 
+#: ../resource/ui/ShortcutsWindow.ui.h:4
+msgid "Zoom In"
+msgstr "জুম ইন"
+
+#: ../resource/ui/ShortcutsWindow.ui.h:5
+msgid "Zoom Out"
+msgstr "জুম আউট"
+
 #: ../resource/ui/ShortcutsWindow.ui.h:6
 msgid "Enter/Exit Fullscreen"
 msgstr "পূর্ণস্ক্রীনে প্রবেশ/প্রস্থান করুন"
@@ -173,40 +217,3 @@ msgstr "হেডার বার দেখান/লুকান"
 #: ../resource/ui/ShortcutsWindow.ui.h:8
 msgid "Open Preferences"
 msgstr "পছন্দগুলি খুলুন"
-
-#: ../src/ui/MainWindow.cpp:348
-msgid "GitHub Repository"
-msgstr "GitHub সংগ্রহস্থল"
-
-#: ../resource/ui/PreferencesWindow.ui.h:9
-msgid "Enable Notification Sounds"
-msgstr "বিজ্ঞপ্তির শব্দ সক্রিয় করুন"
-
-#: ../resource/ui/PreferencesWindow.ui.h:10
-msgid "Play sound on a notification raised by the application"
-msgstr "অ্যাপ্লিকেশন দ্বারা উত্থাপিত একটি বিজ্ঞপ্তিতে শব্দ বাজান"
-
-#: ../resource/ui/PreferencesWindow.ui.h:19
-msgid "Minimum Font Size"
-msgstr "ন্যূনতম ফন্ট সাইজ"
-
-#: ../resource/ui/PreferencesWindow.ui.h:20
-msgid "Minimum font size used to display text, values other than 0 can potentially break page layouts"
-msgstr "পাঠ্য প্রদর্শনের জন্য ব্যবহৃত ন্যূনতম ফন্টের আকার, 0 ব্যতীত অন্য মানগুলি সম্ভাব্যভাবে পৃষ্ঠার বিন্যাস ভেঙে দিতে পারে"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:4
-msgid "Zoom In"
-msgstr "জুম ইন"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:5
-msgid "Zoom Out"
-msgstr "জুম আউট"
-
-#: ../src/ui/WebView.cpp:40
-msgid "Permission Request"
-msgstr "অনুমতির অনুরোধ"
-
-#: ../src/ui/WebView.cpp:41
-msgid "Would you like to allow permissions?"
-msgstr "আপনি কি অনুমতি দিতে চান?"
-

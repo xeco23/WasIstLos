@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: WasIstLos\n"
+"Report-Msgid-Bugs-To: https://github.com/xeco23/WasIstLos/issues\n"
+"POT-Creation-Date: 2024-10-22 14:04+0200\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: WasIstLos\n"
-"Language: nl\n"
 
 #: ../src/ui/MainWindow.cpp:343 ../src/ui/TrayIcon.cpp:46
 #: ../resource/ui/MainWindow.ui.h:4
@@ -19,6 +20,10 @@ msgstr "WasIstLos"
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"
 msgstr "Een onofficiële WhatsApp-desktoptoepassing voor Linux"
+
+#: ../src/ui/MainWindow.cpp:348
+msgid "GitHub Repository"
+msgstr "GitHub"
 
 #: ../src/ui/PreferencesWindow.cpp:40
 msgid "On Demand"
@@ -41,23 +46,31 @@ msgstr "Tonen"
 msgid "Quit"
 msgstr "Afsluiten"
 
-#: ../src/ui/WebView.cpp:75
+#: ../src/ui/WebView.cpp:45
+msgid "Permission Request"
+msgstr "Toestemmingsverzoek"
+
+#: ../src/ui/WebView.cpp:46
+msgid "Would you like to allow permissions?"
+msgstr "Wil je de benodigde rechten verlenen?"
+
+#: ../src/ui/WebView.cpp:80
 msgid "Save File"
 msgstr "Bestand opslaan"
 
-#: ../src/ui/WebView.cpp:76
+#: ../src/ui/WebView.cpp:81
 msgid "Ok"
 msgstr "Oké"
 
-#: ../src/ui/WebView.cpp:77
+#: ../src/ui/WebView.cpp:82
 msgid "Cancel"
 msgstr "Annuleren"
 
-#: ../src/ui/WebView.cpp:328
+#: ../src/ui/WebView.cpp:356
 msgid "Unresponsive"
 msgstr "Niet bereikbaar"
 
-#: ../src/ui/WebView.cpp:329
+#: ../src/ui/WebView.cpp:357
 msgid "The application is not responding. Would you like to reload?"
 msgstr "Het programma reageert niet. Wil je het opnieuw starten?"
 
@@ -117,6 +130,14 @@ msgstr "Start het programma geminimaliseerd"
 msgid "Start application after system boots"
 msgstr "Start het programma na het opstarten van de computer"
 
+#: ../resource/ui/PreferencesWindow.ui.h:9
+msgid "Enable Notification Sounds"
+msgstr "Meldingsgeluiden inschakelen"
+
+#: ../resource/ui/PreferencesWindow.ui.h:10
+msgid "Play sound on a notification raised by the application"
+msgstr "Speel een geluid af als er een melding wordt getoond"
+
 #: ../resource/ui/PreferencesWindow.ui.h:11
 #: ../resource/ui/ShortcutsWindow.ui.h:2
 msgid "General"
@@ -127,8 +148,10 @@ msgid "Prefer Dark Theme"
 msgstr "Donker thema gebruiken"
 
 #: ../resource/ui/PreferencesWindow.ui.h:13
-msgid "Prefer dark theme for the application if system theme includes a dark variant"
-msgstr "Stel het donkere thema in als het systeemthema een donkere variant kent"
+msgid ""
+"Prefer dark theme for the application if system theme includes a dark variant"
+msgstr ""
+"Stel het donkere thema in als het systeemthema een donkere variant kent"
 
 #: ../resource/ui/PreferencesWindow.ui.h:14
 msgid "Appearance"
@@ -150,6 +173,18 @@ msgstr "Stel de door WebKit gebruikte hardwareversnellingsmethode in"
 msgid "Allow permissions on application startup"
 msgstr "Verleen de vereiste rechten automatisch na het opstarten"
 
+#: ../resource/ui/PreferencesWindow.ui.h:19
+msgid "Minimum Font Size"
+msgstr "Minimale tekstgrootte"
+
+#: ../resource/ui/PreferencesWindow.ui.h:20
+msgid ""
+"Minimum font size used to display text, values other than 0 can potentially "
+"break page layouts"
+msgstr ""
+"De minimale tekstgrootte van berichten en het invoerveld. Let op: waarden "
+"hoger dan 0 kunnen de indeling verstoren."
+
 #: ../resource/ui/PreferencesWindow.ui.h:21
 msgid "Web"
 msgstr "Web"
@@ -162,6 +197,14 @@ msgstr "Sneltoetsen"
 msgid "Refresh Page"
 msgstr "Pagina vernieuwen"
 
+#: ../resource/ui/ShortcutsWindow.ui.h:4
+msgid "Zoom In"
+msgstr "Inzoomen"
+
+#: ../resource/ui/ShortcutsWindow.ui.h:5
+msgid "Zoom Out"
+msgstr "Uitzoomen"
+
 #: ../resource/ui/ShortcutsWindow.ui.h:6
 msgid "Enter/Exit Fullscreen"
 msgstr "Schermvullende weergave aan/uit"
@@ -173,40 +216,3 @@ msgstr "Kopbalk tonen/verbergen"
 #: ../resource/ui/ShortcutsWindow.ui.h:8
 msgid "Open Preferences"
 msgstr "Instellingen openen"
-
-#: ../src/ui/MainWindow.cpp:348
-msgid "GitHub Repository"
-msgstr "GitHub"
-
-#: ../resource/ui/PreferencesWindow.ui.h:9
-msgid "Enable Notification Sounds"
-msgstr "Meldingsgeluiden inschakelen"
-
-#: ../resource/ui/PreferencesWindow.ui.h:10
-msgid "Play sound on a notification raised by the application"
-msgstr "Speel een geluid af als er een melding wordt getoond"
-
-#: ../resource/ui/PreferencesWindow.ui.h:19
-msgid "Minimum Font Size"
-msgstr "Minimale tekstgrootte"
-
-#: ../resource/ui/PreferencesWindow.ui.h:20
-msgid "Minimum font size used to display text, values other than 0 can potentially break page layouts"
-msgstr "De minimale tekstgrootte van berichten en het invoerveld. Let op: waarden hoger dan 0 kunnen de indeling verstoren."
-
-#: ../resource/ui/ShortcutsWindow.ui.h:4
-msgid "Zoom In"
-msgstr "Inzoomen"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:5
-msgid "Zoom Out"
-msgstr "Uitzoomen"
-
-#: ../src/ui/WebView.cpp:40
-msgid "Permission Request"
-msgstr "Toestemmingsverzoek"
-
-#: ../src/ui/WebView.cpp:41
-msgid "Would you like to allow permissions?"
-msgstr "Wil je de benodigde rechten verlenen?"
-

@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: WasIstLos\n"
+"Report-Msgid-Bugs-To: https://github.com/xeco23/WasIstLos/issues\n"
+"POT-Creation-Date: 2024-10-22 14:04+0200\n"
+"Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: WasIstLos\n"
-"Language: hu\n"
 
 #: ../src/ui/MainWindow.cpp:343 ../src/ui/TrayIcon.cpp:46
 #: ../resource/ui/MainWindow.ui.h:4
@@ -19,6 +20,10 @@ msgstr "WasIstLos"
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"
 msgstr "Egy alternatív WhatsApp alkalmazás Linuxra"
+
+#: ../src/ui/MainWindow.cpp:348
+msgid "GitHub Repository"
+msgstr "GitHub tároló"
 
 #: ../src/ui/PreferencesWindow.cpp:40
 msgid "On Demand"
@@ -41,23 +46,31 @@ msgstr "Megnyitás"
 msgid "Quit"
 msgstr "Kilépés"
 
-#: ../src/ui/WebView.cpp:75
+#: ../src/ui/WebView.cpp:45
+msgid "Permission Request"
+msgstr "Hozzáférés szükséges"
+
+#: ../src/ui/WebView.cpp:46
+msgid "Would you like to allow permissions?"
+msgstr "Engedélyezi a szükséges jogosultságok létrehozását?"
+
+#: ../src/ui/WebView.cpp:80
 msgid "Save File"
 msgstr "Fájl mentése"
 
-#: ../src/ui/WebView.cpp:76
+#: ../src/ui/WebView.cpp:81
 msgid "Ok"
 msgstr "Rendben"
 
-#: ../src/ui/WebView.cpp:77
+#: ../src/ui/WebView.cpp:82
 msgid "Cancel"
 msgstr "Mégse"
 
-#: ../src/ui/WebView.cpp:328
+#: ../src/ui/WebView.cpp:356
 msgid "Unresponsive"
 msgstr "Nem válszol"
 
-#: ../src/ui/WebView.cpp:329
+#: ../src/ui/WebView.cpp:357
 msgid "The application is not responding. Would you like to reload?"
 msgstr "Az alkalmazás nem válaszol. Szeretné újraindítani?"
 
@@ -117,6 +130,14 @@ msgstr "Alkalmazás indítása kis méretben a tálcán"
 msgid "Start application after system boots"
 msgstr "Alkalmazás indítása a rendszerrel"
 
+#: ../resource/ui/PreferencesWindow.ui.h:9
+msgid "Enable Notification Sounds"
+msgstr "Értesítési hangok engedélyezése"
+
+#: ../resource/ui/PreferencesWindow.ui.h:10
+msgid "Play sound on a notification raised by the application"
+msgstr "Értesítési hangok lejátszása, ha üzenet érkezik"
+
 #: ../resource/ui/PreferencesWindow.ui.h:11
 #: ../resource/ui/ShortcutsWindow.ui.h:2
 msgid "General"
@@ -127,7 +148,8 @@ msgid "Prefer Dark Theme"
 msgstr "Sötét téma használata"
 
 #: ../resource/ui/PreferencesWindow.ui.h:13
-msgid "Prefer dark theme for the application if system theme includes a dark variant"
+msgid ""
+"Prefer dark theme for the application if system theme includes a dark variant"
 msgstr "Sötét téma engedélyezése, ha a rendszer támogatja azt"
 
 #: ../resource/ui/PreferencesWindow.ui.h:14
@@ -138,7 +160,6 @@ msgstr "Megjelenés"
 msgid "Hardware Acceleration"
 msgstr "Hardveres gyorsítás"
 
-#. Need some explanation what is the purpose of this option. What is it for and when it appears?
 #: ../resource/ui/PreferencesWindow.ui.h:16
 msgid "Allow Permissions"
 msgstr "Értesítések engedélyezése"
@@ -150,6 +171,16 @@ msgstr "Hardveres gyorsítás használata az alkalmazás működéséhez"
 #: ../resource/ui/PreferencesWindow.ui.h:18
 msgid "Allow permissions on application startup"
 msgstr "Natív értesítések engedélyezése"
+
+#: ../resource/ui/PreferencesWindow.ui.h:19
+msgid "Minimum Font Size"
+msgstr "Betűméret igazítása"
+
+#: ../resource/ui/PreferencesWindow.ui.h:20
+msgid ""
+"Minimum font size used to display text, values other than 0 can potentially "
+"break page layouts"
+msgstr "Betűméret igazítása nagy felbontású, HiDPI kijelzőkhöz"
 
 #: ../resource/ui/PreferencesWindow.ui.h:21
 msgid "Web"
@@ -163,6 +194,14 @@ msgstr "Gyorsbillentyűk"
 msgid "Refresh Page"
 msgstr "Frissítés"
 
+#: ../resource/ui/ShortcutsWindow.ui.h:4
+msgid "Zoom In"
+msgstr "Nagyítás"
+
+#: ../resource/ui/ShortcutsWindow.ui.h:5
+msgid "Zoom Out"
+msgstr "Kicsinyítés"
+
 #: ../resource/ui/ShortcutsWindow.ui.h:6
 msgid "Enter/Exit Fullscreen"
 msgstr "Teljes képernyő"
@@ -174,41 +213,3 @@ msgstr "Ablakkeret elrejtése"
 #: ../resource/ui/ShortcutsWindow.ui.h:8
 msgid "Open Preferences"
 msgstr "Beállítások"
-
-#: ../src/ui/MainWindow.cpp:348
-msgid "GitHub Repository"
-msgstr "GitHub tároló"
-
-#: ../resource/ui/PreferencesWindow.ui.h:9
-msgid "Enable Notification Sounds"
-msgstr "Értesítési hangok engedélyezése"
-
-#: ../resource/ui/PreferencesWindow.ui.h:10
-msgid "Play sound on a notification raised by the application"
-msgstr "Értesítési hangok lejátszása, ha üzenet érkezik"
-
-#: ../resource/ui/PreferencesWindow.ui.h:19
-msgid "Minimum Font Size"
-msgstr "Betűméret igazítása"
-
-#. Need some explanation.
-#: ../resource/ui/PreferencesWindow.ui.h:20
-msgid "Minimum font size used to display text, values other than 0 can potentially break page layouts"
-msgstr "Betűméret igazítása nagy felbontású, HiDPI kijelzőkhöz"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:4
-msgid "Zoom In"
-msgstr "Nagyítás"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:5
-msgid "Zoom Out"
-msgstr "Kicsinyítés"
-
-#: ../src/ui/WebView.cpp:40
-msgid "Permission Request"
-msgstr "Hozzáférés szükséges"
-
-#: ../src/ui/WebView.cpp:41
-msgid "Would you like to allow permissions?"
-msgstr "Engedélyezi a szükséges jogosultságok létrehozását?"
-

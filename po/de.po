@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: WasIstLos\n"
+"Report-Msgid-Bugs-To: https://github.com/xeco23/WasIstLos/issues\n"
+"POT-Creation-Date: 2024-10-22 14:04+0200\n"
+"Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: WasIstLos\n"
-"Language: de\n"
 
 #: ../src/ui/MainWindow.cpp:343 ../src/ui/TrayIcon.cpp:46
 #: ../resource/ui/MainWindow.ui.h:4
@@ -19,6 +20,10 @@ msgstr "WasIstLos"
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"
 msgstr "Eine inoffizieller WhatsApp Desktop App für Linux"
+
+#: ../src/ui/MainWindow.cpp:348
+msgid "GitHub Repository"
+msgstr "GitHub Repository"
 
 #: ../src/ui/PreferencesWindow.cpp:40
 msgid "On Demand"
@@ -41,23 +46,31 @@ msgstr "Zeige"
 msgid "Quit"
 msgstr "Beenden"
 
-#: ../src/ui/WebView.cpp:75
+#: ../src/ui/WebView.cpp:45
+msgid "Permission Request"
+msgstr "Berechtigungsanfrage"
+
+#: ../src/ui/WebView.cpp:46
+msgid "Would you like to allow permissions?"
+msgstr "Möchtest du die Berechtigungen erteilen?"
+
+#: ../src/ui/WebView.cpp:80
 msgid "Save File"
 msgstr "Speichere Datei"
 
-#: ../src/ui/WebView.cpp:76
+#: ../src/ui/WebView.cpp:81
 msgid "Ok"
 msgstr "Ok"
 
-#: ../src/ui/WebView.cpp:77
+#: ../src/ui/WebView.cpp:82
 msgid "Cancel"
 msgstr "Abbrechen"
 
-#: ../src/ui/WebView.cpp:328
+#: ../src/ui/WebView.cpp:356
 msgid "Unresponsive"
 msgstr "Reagiert nicht"
 
-#: ../src/ui/WebView.cpp:329
+#: ../src/ui/WebView.cpp:357
 msgid "The application is not responding. Would you like to reload?"
 msgstr "Die App reagiert nicht. Neu laden?"
 
@@ -117,6 +130,14 @@ msgstr "App minimiert starten"
 msgid "Start application after system boots"
 msgstr "App bei Systemstart starten"
 
+#: ../resource/ui/PreferencesWindow.ui.h:9
+msgid "Enable Notification Sounds"
+msgstr "Benachrichtigungstöne aktivieren"
+
+#: ../resource/ui/PreferencesWindow.ui.h:10
+msgid "Play sound on a notification raised by the application"
+msgstr "Spiele einen Ton ab, wenn eine Benachrichtigung der App gesendet wird"
+
 #: ../resource/ui/PreferencesWindow.ui.h:11
 #: ../resource/ui/ShortcutsWindow.ui.h:2
 msgid "General"
@@ -127,8 +148,10 @@ msgid "Prefer Dark Theme"
 msgstr "Verwende dunkles Design"
 
 #: ../resource/ui/PreferencesWindow.ui.h:13
-msgid "Prefer dark theme for the application if system theme includes a dark variant"
-msgstr "Dunkles Design für die App nutzen, wenn das System ein dunkles Design besitzt"
+msgid ""
+"Prefer dark theme for the application if system theme includes a dark variant"
+msgstr ""
+"Dunkles Design für die App nutzen, wenn das System ein dunkles Design besitzt"
 
 #: ../resource/ui/PreferencesWindow.ui.h:14
 msgid "Appearance"
@@ -144,11 +167,24 @@ msgstr "Berechtigungen erlauben"
 
 #: ../resource/ui/PreferencesWindow.ui.h:17
 msgid "Set hardware acceleration policy used by webkit"
-msgstr "Richtlinie für die von Webkit verwendete Hardwarebeschleunigung festlegen"
+msgstr ""
+"Richtlinie für die von Webkit verwendete Hardwarebeschleunigung festlegen"
 
 #: ../resource/ui/PreferencesWindow.ui.h:18
 msgid "Allow permissions on application startup"
 msgstr "Erlaube Berechtigungen bei Start der App"
+
+#: ../resource/ui/PreferencesWindow.ui.h:19
+msgid "Minimum Font Size"
+msgstr "Minimale Textgröße"
+
+#: ../resource/ui/PreferencesWindow.ui.h:20
+msgid ""
+"Minimum font size used to display text, values other than 0 can potentially "
+"break page layouts"
+msgstr ""
+"Minimale Textgröße zum Anzeigen von Text, andere Werte als 0 können das "
+"Erscheinungsbild der Seite zerstören"
 
 #: ../resource/ui/PreferencesWindow.ui.h:21
 msgid "Web"
@@ -162,6 +198,14 @@ msgstr "Tastenkürzel"
 msgid "Refresh Page"
 msgstr "Seite neu laden"
 
+#: ../resource/ui/ShortcutsWindow.ui.h:4
+msgid "Zoom In"
+msgstr "Ran zoomen"
+
+#: ../resource/ui/ShortcutsWindow.ui.h:5
+msgid "Zoom Out"
+msgstr "Raus zoomen"
+
 #: ../resource/ui/ShortcutsWindow.ui.h:6
 msgid "Enter/Exit Fullscreen"
 msgstr "Vollbild de-/aktivieren"
@@ -173,40 +217,3 @@ msgstr "Kopfzeile anzeigen/verstecken"
 #: ../resource/ui/ShortcutsWindow.ui.h:8
 msgid "Open Preferences"
 msgstr "Einstellungen öffnen"
-
-#: ../src/ui/MainWindow.cpp:348
-msgid "GitHub Repository"
-msgstr "GitHub Repository"
-
-#: ../resource/ui/PreferencesWindow.ui.h:9
-msgid "Enable Notification Sounds"
-msgstr "Benachrichtigungstöne aktivieren"
-
-#: ../resource/ui/PreferencesWindow.ui.h:10
-msgid "Play sound on a notification raised by the application"
-msgstr "Spiele einen Ton ab, wenn eine Benachrichtigung der App gesendet wird"
-
-#: ../resource/ui/PreferencesWindow.ui.h:19
-msgid "Minimum Font Size"
-msgstr "Minimale Textgröße"
-
-#: ../resource/ui/PreferencesWindow.ui.h:20
-msgid "Minimum font size used to display text, values other than 0 can potentially break page layouts"
-msgstr "Minimale Textgröße zum Anzeigen von Text, andere Werte als 0 können das Erscheinungsbild der Seite zerstören"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:4
-msgid "Zoom In"
-msgstr "Ran zoomen"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:5
-msgid "Zoom Out"
-msgstr "Raus zoomen"
-
-#: ../src/ui/WebView.cpp:40
-msgid "Permission Request"
-msgstr "Berechtigungsanfrage"
-
-#: ../src/ui/WebView.cpp:41
-msgid "Would you like to allow permissions?"
-msgstr "Möchtest du die Berechtigungen erteilen?"
-

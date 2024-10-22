@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: WasIstLos\n"
+"Report-Msgid-Bugs-To: https://github.com/xeco23/WasIstLos/issues\n"
+"POT-Creation-Date: 2024-10-22 14:04+0200\n"
+"Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: WasIstLos\n"
-"Language: cs\n"
 
 #: ../src/ui/MainWindow.cpp:343 ../src/ui/TrayIcon.cpp:46
 #: ../resource/ui/MainWindow.ui.h:4
@@ -19,6 +20,10 @@ msgstr "WasIstLos"
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"
 msgstr "Neoficiální desktopová aplikace WhatsApp pro Linux"
+
+#: ../src/ui/MainWindow.cpp:348
+msgid "GitHub Repository"
+msgstr "GitHub Repozitář"
 
 #: ../src/ui/PreferencesWindow.cpp:40
 msgid "On Demand"
@@ -41,23 +46,31 @@ msgstr "Zobrazit"
 msgid "Quit"
 msgstr "Ukončit"
 
-#: ../src/ui/WebView.cpp:75
+#: ../src/ui/WebView.cpp:45
+msgid "Permission Request"
+msgstr "Žádost o oprávnění"
+
+#: ../src/ui/WebView.cpp:46
+msgid "Would you like to allow permissions?"
+msgstr "Chcete povolit oprávnění?"
+
+#: ../src/ui/WebView.cpp:80
 msgid "Save File"
 msgstr "Uložit soubor"
 
-#: ../src/ui/WebView.cpp:76
+#: ../src/ui/WebView.cpp:81
 msgid "Ok"
 msgstr "Ok"
 
-#: ../src/ui/WebView.cpp:77
+#: ../src/ui/WebView.cpp:82
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: ../src/ui/WebView.cpp:328
+#: ../src/ui/WebView.cpp:356
 msgid "Unresponsive"
 msgstr "Nereaguje"
 
-#: ../src/ui/WebView.cpp:329
+#: ../src/ui/WebView.cpp:357
 msgid "The application is not responding. Would you like to reload?"
 msgstr "Aplikace neodpovídá. Chcete ji znovu načíst?"
 
@@ -117,6 +130,14 @@ msgstr "Spustit aplikace minimalizovanou"
 msgid "Start application after system boots"
 msgstr "Spustit aplikaci po restartu"
 
+#: ../resource/ui/PreferencesWindow.ui.h:9
+msgid "Enable Notification Sounds"
+msgstr "Povolit zvuky oznámení"
+
+#: ../resource/ui/PreferencesWindow.ui.h:10
+msgid "Play sound on a notification raised by the application"
+msgstr "Přehrát zvuky při oznámení vyvolaném aplikací"
+
 #: ../resource/ui/PreferencesWindow.ui.h:11
 #: ../resource/ui/ShortcutsWindow.ui.h:2
 msgid "General"
@@ -127,7 +148,8 @@ msgid "Prefer Dark Theme"
 msgstr "Preferovat tmavý režim"
 
 #: ../resource/ui/PreferencesWindow.ui.h:13
-msgid "Prefer dark theme for the application if system theme includes a dark variant"
+msgid ""
+"Prefer dark theme for the application if system theme includes a dark variant"
 msgstr "Preferovat tmavý režim aplikace, pokud systémový režim je též tmavý"
 
 #: ../resource/ui/PreferencesWindow.ui.h:14
@@ -150,6 +172,18 @@ msgstr "Nastavit zásady hardwarové akcelerace používané sadou webkit"
 msgid "Allow permissions on application startup"
 msgstr "Povolit oprávnění při spuštění aplikace"
 
+#: ../resource/ui/PreferencesWindow.ui.h:19
+msgid "Minimum Font Size"
+msgstr "Minimální velikost písma"
+
+#: ../resource/ui/PreferencesWindow.ui.h:20
+msgid ""
+"Minimum font size used to display text, values other than 0 can potentially "
+"break page layouts"
+msgstr ""
+"Minimální velikost písma pro zobrazení textu, hodnoty jiné než 0 mohou "
+"narušit rozvržení stránky."
+
 #: ../resource/ui/PreferencesWindow.ui.h:21
 msgid "Web"
 msgstr "Web"
@@ -162,6 +196,14 @@ msgstr "Zkratky"
 msgid "Refresh Page"
 msgstr "Obnovit stránku"
 
+#: ../resource/ui/ShortcutsWindow.ui.h:4
+msgid "Zoom In"
+msgstr "Přiblížit"
+
+#: ../resource/ui/ShortcutsWindow.ui.h:5
+msgid "Zoom Out"
+msgstr "Oddálit"
+
 #: ../resource/ui/ShortcutsWindow.ui.h:6
 msgid "Enter/Exit Fullscreen"
 msgstr "Spustit/ukončit režim celé obrazovky"
@@ -173,40 +215,3 @@ msgstr "Zobrazit/skrýt záhlaví"
 #: ../resource/ui/ShortcutsWindow.ui.h:8
 msgid "Open Preferences"
 msgstr "Otevřít předvolby"
-
-#: ../src/ui/MainWindow.cpp:348
-msgid "GitHub Repository"
-msgstr "GitHub Repozitář"
-
-#: ../resource/ui/PreferencesWindow.ui.h:9
-msgid "Enable Notification Sounds"
-msgstr "Povolit zvuky oznámení"
-
-#: ../resource/ui/PreferencesWindow.ui.h:10
-msgid "Play sound on a notification raised by the application"
-msgstr "Přehrát zvuky při oznámení vyvolaném aplikací"
-
-#: ../resource/ui/PreferencesWindow.ui.h:19
-msgid "Minimum Font Size"
-msgstr "Minimální velikost písma"
-
-#: ../resource/ui/PreferencesWindow.ui.h:20
-msgid "Minimum font size used to display text, values other than 0 can potentially break page layouts"
-msgstr "Minimální velikost písma pro zobrazení textu, hodnoty jiné než 0 mohou narušit rozvržení stránky."
-
-#: ../resource/ui/ShortcutsWindow.ui.h:4
-msgid "Zoom In"
-msgstr "Přiblížit"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:5
-msgid "Zoom Out"
-msgstr "Oddálit"
-
-#: ../src/ui/WebView.cpp:40
-msgid "Permission Request"
-msgstr "Žádost o oprávnění"
-
-#: ../src/ui/WebView.cpp:41
-msgid "Would you like to allow permissions?"
-msgstr "Chcete povolit oprávnění?"
-

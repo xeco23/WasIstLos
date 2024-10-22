@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: WasIstLos\n"
+"Report-Msgid-Bugs-To: https://github.com/xeco23/WasIstLos/issues\n"
+"POT-Creation-Date: 2024-10-22 14:04+0200\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: WasIstLos\n"
-"Language: ru\n"
 
 #: ../src/ui/MainWindow.cpp:343 ../src/ui/TrayIcon.cpp:46
 #: ../resource/ui/MainWindow.ui.h:4
@@ -19,6 +20,10 @@ msgstr "WasIstLos"
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"
 msgstr "Неофициальное приложение WhatsApp для Linux"
+
+#: ../src/ui/MainWindow.cpp:348
+msgid "GitHub Repository"
+msgstr "Репозиторий на GitHub"
 
 #: ../src/ui/PreferencesWindow.cpp:40
 msgid "On Demand"
@@ -41,23 +46,31 @@ msgstr "Показывать"
 msgid "Quit"
 msgstr "Выход"
 
-#: ../src/ui/WebView.cpp:75
+#: ../src/ui/WebView.cpp:45
+msgid "Permission Request"
+msgstr "Запрос разрешения"
+
+#: ../src/ui/WebView.cpp:46
+msgid "Would you like to allow permissions?"
+msgstr "Хотите ли вы разрешить разрешения?"
+
+#: ../src/ui/WebView.cpp:80
 msgid "Save File"
 msgstr "Сохранить файл"
 
-#: ../src/ui/WebView.cpp:76
+#: ../src/ui/WebView.cpp:81
 msgid "Ok"
 msgstr "ОК"
 
-#: ../src/ui/WebView.cpp:77
+#: ../src/ui/WebView.cpp:82
 msgid "Cancel"
 msgstr "Отмена"
 
-#: ../src/ui/WebView.cpp:328
+#: ../src/ui/WebView.cpp:356
 msgid "Unresponsive"
 msgstr "Не отвечает"
 
-#: ../src/ui/WebView.cpp:329
+#: ../src/ui/WebView.cpp:357
 msgid "The application is not responding. Would you like to reload?"
 msgstr "Приложение не отвечает. Перезагрузить его?"
 
@@ -117,6 +130,15 @@ msgstr "Запускать приложение в свёрнутом виде"
 msgid "Start application after system boots"
 msgstr "Запускать приложение после загрузки системы"
 
+#: ../resource/ui/PreferencesWindow.ui.h:9
+msgid "Enable Notification Sounds"
+msgstr "Включение звуковых сигналов уведомлений"
+
+#: ../resource/ui/PreferencesWindow.ui.h:10
+msgid "Play sound on a notification raised by the application"
+msgstr ""
+"Воспроизведение звука при появлении уведомления, вызванного приложением"
+
 #: ../resource/ui/PreferencesWindow.ui.h:11
 #: ../resource/ui/ShortcutsWindow.ui.h:2
 msgid "General"
@@ -127,7 +149,8 @@ msgid "Prefer Dark Theme"
 msgstr "Предпочитать Тёмную Тему"
 
 #: ../resource/ui/PreferencesWindow.ui.h:13
-msgid "Prefer dark theme for the application if system theme includes a dark variant"
+msgid ""
+"Prefer dark theme for the application if system theme includes a dark variant"
 msgstr "Предпочитать тёмную тему, если система предусматривает тёмный вариант"
 
 #: ../resource/ui/PreferencesWindow.ui.h:14
@@ -150,6 +173,18 @@ msgstr "Установить политику аппаратного ускор�
 msgid "Allow permissions on application startup"
 msgstr "Предоставить разрешения при запуске приложения"
 
+#: ../resource/ui/PreferencesWindow.ui.h:19
+msgid "Minimum Font Size"
+msgstr "Минимальный размер шрифта"
+
+#: ../resource/ui/PreferencesWindow.ui.h:20
+msgid ""
+"Minimum font size used to display text, values other than 0 can potentially "
+"break page layouts"
+msgstr ""
+"Минимальный размер шрифта, используемый для отображения текста; значения, "
+"отличные от 0, могут нарушать макеты страниц"
+
 #: ../resource/ui/PreferencesWindow.ui.h:21
 msgid "Web"
 msgstr "Интернет"
@@ -162,6 +197,14 @@ msgstr "Комбинации клавиш"
 msgid "Refresh Page"
 msgstr "Обновить страницу"
 
+#: ../resource/ui/ShortcutsWindow.ui.h:4
+msgid "Zoom In"
+msgstr "Увеличить"
+
+#: ../resource/ui/ShortcutsWindow.ui.h:5
+msgid "Zoom Out"
+msgstr "Уменьшение масштаба"
+
 #: ../resource/ui/ShortcutsWindow.ui.h:6
 msgid "Enter/Exit Fullscreen"
 msgstr "Включить или отключить полноэкранный режим"
@@ -173,40 +216,3 @@ msgstr "Показать или скрыть строку заголовка"
 #: ../resource/ui/ShortcutsWindow.ui.h:8
 msgid "Open Preferences"
 msgstr "Открыть параметры"
-
-#: ../src/ui/MainWindow.cpp:348
-msgid "GitHub Repository"
-msgstr "Репозиторий на GitHub"
-
-#: ../resource/ui/PreferencesWindow.ui.h:9
-msgid "Enable Notification Sounds"
-msgstr "Включение звуковых сигналов уведомлений"
-
-#: ../resource/ui/PreferencesWindow.ui.h:10
-msgid "Play sound on a notification raised by the application"
-msgstr "Воспроизведение звука при появлении уведомления, вызванного приложением"
-
-#: ../resource/ui/PreferencesWindow.ui.h:19
-msgid "Minimum Font Size"
-msgstr "Минимальный размер шрифта"
-
-#: ../resource/ui/PreferencesWindow.ui.h:20
-msgid "Minimum font size used to display text, values other than 0 can potentially break page layouts"
-msgstr "Минимальный размер шрифта, используемый для отображения текста; значения, отличные от 0, могут нарушать макеты страниц"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:4
-msgid "Zoom In"
-msgstr "Увеличить"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:5
-msgid "Zoom Out"
-msgstr "Уменьшение масштаба"
-
-#: ../src/ui/WebView.cpp:40
-msgid "Permission Request"
-msgstr "Запрос разрешения"
-
-#: ../src/ui/WebView.cpp:41
-msgid "Would you like to allow permissions?"
-msgstr "Хотите ли вы разрешить разрешения?"
-

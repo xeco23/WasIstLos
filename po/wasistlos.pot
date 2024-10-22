@@ -7,9 +7,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: WasIstLos\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-12-10 22:56+0100\n"
-"PO-Revision-Date: 2024-20-10 15:04+0200\n"
+"Report-Msgid-Bugs-To: https://github.com/xeco23/WasIstLos/issues\n"
+"POT-Creation-Date: 2024-10-22 14:04+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -186,7 +186,9 @@ msgid "Minimum Font Size"
 msgstr ""
 
 #: ../resource/ui/PreferencesWindow.ui.h:20
-msgid "Minimum font size used to display text, values other than 0 can potentially break page layouts"
+msgid ""
+"Minimum font size used to display text, values other than 0 can potentially "
+"break page layouts"
 msgstr ""
 
 #: ../resource/ui/PreferencesWindow.ui.h:21

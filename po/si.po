@@ -1,11 +1,12 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: WasIstLos\n"
+"Report-Msgid-Bugs-To: https://github.com/xeco23/WasIstLos/issues\n"
+"POT-Creation-Date: 2024-10-22 14:04+0200\n"
+"Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: POEditor.com\n"
-"Project-Id-Version: WasIstLos\n"
-"Language: si\n"
 
 #: ../src/ui/MainWindow.cpp:343 ../src/ui/TrayIcon.cpp:46
 #: ../resource/ui/MainWindow.ui.h:4
@@ -19,6 +20,10 @@ msgstr "WasIstLos"
 #: ../src/ui/MainWindow.cpp:346
 msgid "An unofficial WhatsApp desktop application for Linux"
 msgstr "ලිනක්ස් සඳහා නිල නොවන WhatsApp ඩෙස්ක්ටොප් යෙදුමකි"
+
+#: ../src/ui/MainWindow.cpp:348
+msgid "GitHub Repository"
+msgstr "GitHub ගබඩාව"
 
 #: ../src/ui/PreferencesWindow.cpp:40
 msgid "On Demand"
@@ -41,23 +46,31 @@ msgstr "පෙන්වන්න"
 msgid "Quit"
 msgstr "ඉවත්"
 
-#: ../src/ui/WebView.cpp:75
+#: ../src/ui/WebView.cpp:45
+msgid "Permission Request"
+msgstr "අවසර ඉල්ලීම"
+
+#: ../src/ui/WebView.cpp:46
+msgid "Would you like to allow permissions?"
+msgstr "ඔබ අවසර ලබා දීමට කැමතිද?"
+
+#: ../src/ui/WebView.cpp:80
 msgid "Save File"
 msgstr "ගොනුව සුරකින්න"
 
-#: ../src/ui/WebView.cpp:76
+#: ../src/ui/WebView.cpp:81
 msgid "Ok"
 msgstr "හරි"
 
-#: ../src/ui/WebView.cpp:77
+#: ../src/ui/WebView.cpp:82
 msgid "Cancel"
 msgstr "අවලංගු කරන්න"
 
-#: ../src/ui/WebView.cpp:328
+#: ../src/ui/WebView.cpp:356
 msgid "Unresponsive"
 msgstr "Unresponsive"
 
-#: ../src/ui/WebView.cpp:329
+#: ../src/ui/WebView.cpp:357
 msgid "The application is not responding. Would you like to reload?"
 msgstr "යෙදුම ප්‍රතිචාර නොදක්වයි. ඔබ නැවත පූරණය කිරීමට කැමතිද?"
 
@@ -117,6 +130,14 @@ msgstr "අවම කළ පරිදි යෙදුම ආරම්භ කර�
 msgid "Start application after system boots"
 msgstr "පද්ධතිය ආරම්භ කිරීමෙන් පසු යෙදුම ආරම්භ කරන්න"
 
+#: ../resource/ui/PreferencesWindow.ui.h:9
+msgid "Enable Notification Sounds"
+msgstr "දැනුම්දීම් ශබ්ද සබල කරන්න"
+
+#: ../resource/ui/PreferencesWindow.ui.h:10
+msgid "Play sound on a notification raised by the application"
+msgstr "යෙදුම මගින් මතු කරන ලද දැනුම්දීමක් මත ශබ්දය වාදනය කරන්න"
+
 #: ../resource/ui/PreferencesWindow.ui.h:11
 #: ../resource/ui/ShortcutsWindow.ui.h:2
 msgid "General"
@@ -127,7 +148,8 @@ msgid "Prefer Dark Theme"
 msgstr "අඳුරු තේමාවට වැඩි කැමැත්තක් දක්වන්න"
 
 #: ../resource/ui/PreferencesWindow.ui.h:13
-msgid "Prefer dark theme for the application if system theme includes a dark variant"
+msgid ""
+"Prefer dark theme for the application if system theme includes a dark variant"
 msgstr "පද්ධති තේමාවට අඳුරු ප්‍රභේදයක් ඇතුළත් නම් යෙදුම සඳහා අඳුරු තේමාවට කැමති වන්න"
 
 #: ../resource/ui/PreferencesWindow.ui.h:14
@@ -150,6 +172,18 @@ msgstr "Webkit විසින් භාවිතා කරන දෘඪාං�
 msgid "Allow permissions on application startup"
 msgstr "යෙදුම් ආරම්භයේදී අවසර දෙන්න"
 
+#: ../resource/ui/PreferencesWindow.ui.h:19
+msgid "Minimum Font Size"
+msgstr "අවම අකුරු ප්‍රමාණය"
+
+#: ../resource/ui/PreferencesWindow.ui.h:20
+msgid ""
+"Minimum font size used to display text, values other than 0 can potentially "
+"break page layouts"
+msgstr ""
+"පෙළ සංදර්ශන කිරීමට භාවිතා කරන අවම අකුරු ප්‍රමාණය, 0 හැර වෙනත් අගයන් පිටු පිරිසැලසුම් බිඳ දැමිය "
+"හැක"
+
 #: ../resource/ui/PreferencesWindow.ui.h:21
 msgid "Web"
 msgstr "වෙබ්"
@@ -162,6 +196,14 @@ msgstr "කෙටිමං"
 msgid "Refresh Page"
 msgstr "පිටුව නැවුම් කරන්න"
 
+#: ../resource/ui/ShortcutsWindow.ui.h:4
+msgid "Zoom In"
+msgstr "විශාලනය කරන්න"
+
+#: ../resource/ui/ShortcutsWindow.ui.h:5
+msgid "Zoom Out"
+msgstr "විශාලනය කරන්න"
+
 #: ../resource/ui/ShortcutsWindow.ui.h:6
 msgid "Enter/Exit Fullscreen"
 msgstr "සම්පූර්ණ තිරයට ඇතුළු වන්න/පිටවීම"
@@ -173,40 +215,3 @@ msgstr "ශීර්ෂ තීරුව පෙන්වන්න/සඟවන්
 #: ../resource/ui/ShortcutsWindow.ui.h:8
 msgid "Open Preferences"
 msgstr "මනාප විවෘත කරන්න"
-
-#: ../src/ui/MainWindow.cpp:348
-msgid "GitHub Repository"
-msgstr "GitHub ගබඩාව"
-
-#: ../resource/ui/PreferencesWindow.ui.h:9
-msgid "Enable Notification Sounds"
-msgstr "දැනුම්දීම් ශබ්ද සබල කරන්න"
-
-#: ../resource/ui/PreferencesWindow.ui.h:10
-msgid "Play sound on a notification raised by the application"
-msgstr "යෙදුම මගින් මතු කරන ලද දැනුම්දීමක් මත ශබ්දය වාදනය කරන්න"
-
-#: ../resource/ui/PreferencesWindow.ui.h:19
-msgid "Minimum Font Size"
-msgstr "අවම අකුරු ප්‍රමාණය"
-
-#: ../resource/ui/PreferencesWindow.ui.h:20
-msgid "Minimum font size used to display text, values other than 0 can potentially break page layouts"
-msgstr "පෙළ සංදර්ශන කිරීමට භාවිතා කරන අවම අකුරු ප්‍රමාණය, 0 හැර වෙනත් අගයන් පිටු පිරිසැලසුම් බිඳ දැමිය හැක"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:4
-msgid "Zoom In"
-msgstr "විශාලනය කරන්න"
-
-#: ../resource/ui/ShortcutsWindow.ui.h:5
-msgid "Zoom Out"
-msgstr "විශාලනය කරන්න"
-
-#: ../src/ui/WebView.cpp:40
-msgid "Permission Request"
-msgstr "අවසර ඉල්ලීම"
-
-#: ../src/ui/WebView.cpp:41
-msgid "Would you like to allow permissions?"
-msgstr "ඔබ අවසර ලබා දීමට කැමතිද?"
-
